@@ -4,6 +4,10 @@
       "type": "main-cart-items",
       "settings": {}
     },
+    "cart-item": {
+      "type": "text-cart.liquid",
+      "settings": {}
+    },
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
@@ -31,6 +35,7 @@
     }
   },
   "order": [
+    "cart-item",
     "cart-items",
     "cart-footer",
     "featured-products"
